@@ -1,4 +1,6 @@
-# -*- coding: utf-8 -*-
+# A program to say hello world in different languages.
+
+
 def main():
     import sys
 
@@ -20,7 +22,10 @@ def main():
             print ("xim Chào thế giới!")
 
         elif (lang.lower() == "french"):
-            print ("Bonjour le monde!")
+            print ("Bonjour, le monde!")
+
+        elif(lang.lower() == "japanese"):
+            print("こんにちは世界 - Kon'nichiwa sekai")
 
         else:
             print ("this shouldn't happen!")
